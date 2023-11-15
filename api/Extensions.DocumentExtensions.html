@@ -158,10 +158,12 @@
 
   <h3 id="Extensions_DocumentExtensions_CreateDirectShape_Autodesk_Revit_DB_Document_System_Collections_Generic_IList_Autodesk_Revit_DB_GeometryObject__Autodesk_Revit_DB_BuiltInCategory_" data-uid="Extensions.DocumentExtensions.CreateDirectShape(Autodesk.Revit.DB.Document,System.Collections.Generic.IList{Autodesk.Revit.DB.GeometryObject},Autodesk.Revit.DB.BuiltInCategory)">
   CreateDirectShape(Document, IList&lt;GeometryObject&gt;, BuiltInCategory)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L47"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The function creates a DirectShape element in a Revit document with the specified geometry objects
+and built-in category.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -173,7 +175,10 @@
     <dt><code>doc</code> <span class="xref">Document</span></dt>
     <dd></dd>
     <dt><code>geometryObjects</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<span class="xref">GeometryObject</span>&gt;</dt>
-    <dd></dd>
+    <dd><p>The geometryObjects parameter is a list of GeometryObject instances
+that represent the geometry you want to create a DirectShape element from. This can include various
+types of geometry such as solids, meshes, curves, etc.</p>
+</dd>
     <dt><code>builtInCategory</code> <span class="xref">BuiltInCategory</span></dt>
     <dd></dd>
   </dl>
@@ -181,7 +186,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">DirectShape</span></dt>
-    <dd></dd>
+    <dd><p>The method is returning a DirectShape object.</p>
+</dd>
   </dl>
 
 
@@ -198,10 +204,12 @@
 
   <h3 id="Extensions_DocumentExtensions_CreateTextNote_Autodesk_Revit_DB_Document_Autodesk_Revit_DB_XYZ_System_String_" data-uid="Extensions.DocumentExtensions.CreateTextNote(Autodesk.Revit.DB.Document,Autodesk.Revit.DB.XYZ,System.String)">
   CreateTextNote(Document, XYZ, string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L14"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L25"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The CreateTextNote function creates a text note in a document at a specified position with the given
+text.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -215,7 +223,9 @@
     <dt><code>position</code> <span class="xref">XYZ</span></dt>
     <dd></dd>
     <dt><code>text</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd></dd>
+    <dd><p>The &quot;text&quot; parameter is a string that represents the content of the text note. It
+is the actual text that will be displayed in the note.</p>
+</dd>
   </dl>
 
 
@@ -233,10 +243,12 @@
 
   <h3 id="Extensions_DocumentExtensions_GetElementCollectorByType__1_Autodesk_Revit_DB_Document_System_Boolean_System_Boolean_" data-uid="Extensions.DocumentExtensions.GetElementCollectorByType``1(Autodesk.Revit.DB.Document,System.Boolean,System.Boolean)">
   GetElementCollectorByType&lt;T&gt;(Document, bool, bool)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L91"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>This function returns a filtered element collector based on the specified element type, with options
+to filter by instance or element type and to collect elements on the active view.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -248,15 +260,23 @@
     <dt><code>document</code> <span class="xref">Document</span></dt>
     <dd></dd>
     <dt><code>instance</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>The &quot;instance&quot; parameter is a boolean value that determines whether the
+collector should include only instances of the specified element type (if true) or only element
+types (if false).</p>
+</dd>
     <dt><code>onActiveView</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></dt>
-    <dd></dd>
+    <dd><p>The &quot;onActiveView&quot; parameter is a boolean flag that determines whether
+the element collector should be filtered based on the active view in the document. If set to true,
+the collector will only retrieve elements that are visible in the active view. If set to false, the
+collector will retrieve elements from the</p>
+</dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">FilteredElementCollector</span></dt>
-    <dd></dd>
+    <dd><p>The method returns a FilteredElementCollector object.</p>
+</dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
@@ -278,10 +298,12 @@
 
   <h3 id="Extensions_DocumentExtensions_GetElementsByType__1_Autodesk_Revit_DB_Document_" data-uid="Extensions.DocumentExtensions.GetElementsByType``1(Autodesk.Revit.DB.Document)">
   GetElementsByType&lt;T&gt;(Document)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L66"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L126"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The function <code>GetElementsByType</code> returns a list of elements of a specific type from a given
+document.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -297,7 +319,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</dt>
-    <dd></dd>
+    <dd><p>The method is returning a list of elements of type T.</p>
+</dd>
   </dl>
 
   <h4 class="section">Type Parameters</h4>
@@ -319,7 +342,7 @@
 
   <h3 id="Extensions_DocumentExtensions_GetInstances__1_Autodesk_Revit_DB_Document_" data-uid="Extensions.DocumentExtensions.GetInstances``1(Autodesk.Revit.DB.Document)">
   GetInstances&lt;T&gt;(Document)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L66"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -360,10 +383,11 @@
 
   <h3 id="Extensions_DocumentExtensions_GetRooms_Autodesk_Revit_DB_Document_" data-uid="Extensions.DocumentExtensions.GetRooms(Autodesk.Revit.DB.Document)">
   GetRooms(Document)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L140"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The function returns a list of Room objects from a given Document.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -379,7 +403,8 @@
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">Room</span>&gt;</dt>
-    <dd></dd>
+    <dd><p>The method is returning a list of Room objects.</p>
+</dd>
   </dl>
 
 
@@ -396,7 +421,7 @@
 
   <h3 id="Extensions_DocumentExtensions_InTransaction_Autodesk_Revit_DB_Document_System_Action_System_String_Autodesk_Revit_DB_IFailuresPreprocessor_" data-uid="Extensions.DocumentExtensions.InTransaction(Autodesk.Revit.DB.Document,System.Action,System.String,Autodesk.Revit.DB.IFailuresPreprocessor)">
   InTransaction(Document, Action, string, IFailuresPreprocessor)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Extensions/DocumentExtensions.cs/#L159"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Executes an action within a transaction on a document.</p>
