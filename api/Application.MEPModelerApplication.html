@@ -99,7 +99,7 @@
   <dl><dt>Assembly</dt><dd>Application.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>IExternalApplication</p>
+  <div class="markdown summary"><p>Represents the MEP Modeler Application, an external application for Autodesk Revit.</p>
 </div>
   <div class="markdown conceptual"></div>
 
@@ -165,10 +165,10 @@
 
   <h3 id="Application_MEPModelerApplication_OnShutdown_Autodesk_Revit_UI_UIControlledApplication_" data-uid="Application.MEPModelerApplication.OnShutdown(Autodesk.Revit.UI.UIControlledApplication)">
   OnShutdown(UIControlledApplication)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Application/MEPModelerApplication.cs/#L18"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Application/MEPModelerApplication.cs/#L30"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Implement this method to execute some tasks when Autodesk Revit shuts down.</p>
+  <div class="markdown level1 summary"><p>Called when the external application is shut down.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -179,14 +179,14 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>application</code> <span class="xref">UIControlledApplication</span></dt>
-    <dd><p>A handle to the application being shut down.</p>
+    <dd><p>The UIControlledApplication object representing the Revit application.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Result</span></dt>
-    <dd><p>Indicates if the external application completes its work successfully.</p>
+    <dd><p>A Result indicating the success or failure of the shutdown operation.</p>
 </dd>
   </dl>
 
@@ -204,10 +204,10 @@
 
   <h3 id="Application_MEPModelerApplication_OnStartup_Autodesk_Revit_UI_UIControlledApplication_" data-uid="Application.MEPModelerApplication.OnStartup(Autodesk.Revit.UI.UIControlledApplication)">
   OnStartup(UIControlledApplication)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Application/MEPModelerApplication.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/salekseevitch1/MEPModeler/blob/master/Application/MEPModelerApplication.cs/#L16"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Implement this method to execute some tasks when Autodesk Revit starts.</p>
+  <div class="markdown level1 summary"><p>Called when the external application is started up.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -218,14 +218,14 @@
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>application</code> <span class="xref">UIControlledApplication</span></dt>
-    <dd><p>A handle to the application being started.</p>
+    <dd><p>The UIControlledApplication object representing the Revit application.</p>
 </dd>
   </dl>
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
     <dt><span class="xref">Result</span></dt>
-    <dd><p>Indicates if the external application completes its work successfully.</p>
+    <dd><p>A Result indicating the success or failure of the startup operation.</p>
 </dd>
   </dl>
 
