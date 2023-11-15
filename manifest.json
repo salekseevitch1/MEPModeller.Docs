@@ -1,0 +1,948 @@
+{
+  "source_base_path": "D:/RevitAPIProject/MEPModeler/Docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Application.MEPModelerApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Application.MEPModelerApplication.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Application.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.AntCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.AntCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.ConsoleDebugCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.ConsoleDebugCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.FilletArcCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.FilletArcCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.ElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.ElementExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.ElementWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.ElementWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.GeometryConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.GeometryConverter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.GeometryViewerDebugCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.GeometryViewerDebugCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.MeshExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.MeshExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.ShellViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.ShellViewModel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.ShellWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.ShellWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.SolidExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.SolidExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.XYZExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.XYZExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.GeometryViewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.GeometryViewer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Commands.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Commands.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Validations.ConduitRunAngleValidationCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Validations.ConduitRunAngleValidationCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Validations.ConduitWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Validations.ConduitWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Validations.CustomConduitRun.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Validations.CustomConduitRun.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Validations.SizeBetweenConduitsValidationCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Validations.SizeBetweenConduitsValidationCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Commands.Validations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Commands.Validations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.AssembliesLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.AssembliesLoader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.AvailabilitySingleWindow-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.AvailabilitySingleWindow-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.BaseCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.BaseCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.BaseSelectionFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.BaseSelectionFilter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.CategorySelectionFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.CategorySelectionFilter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.CustomSelectionFilter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.CustomSelectionFilter-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.DebugConsole.ItemWrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.DebugConsole.ItemWrapper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.DebugConsole.RevitConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.DebugConsole.RevitConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.DebugConsole.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.DebugConsole.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Exceptions.MEPModelerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Exceptions.MEPModelerException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Exceptions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.BoundingBoxExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.BoundingBoxExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.CableTrayExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.CableTrayExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.CategorySetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.CategorySetExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ConduitExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ConduitExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ConnectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ConnectorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.CurveExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.CurveExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.CurveLoopExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.CurveLoopExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.CurveRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.CurveRelation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.DocumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.DocumentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.DoorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.DoorExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.DoubleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.DoubleExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ElementExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ElementIdExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ElementIdExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ElementMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ElementMaterial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.EnumerableExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.FabricSheetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.FabricSheetExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.FaceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.FaceExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.FamilyInstanceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.FamilyInstanceExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.GeometryElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.GeometryElementExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.GeometryRepresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.GeometryRepresentation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.LineExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.LineExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.LinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.LinqExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.MaterialExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.MaterialExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.MepCurveExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.MepCurveExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.OutlineExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.OutlineExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ParameterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ParameterExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.PipeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.PipeExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.RibbonPanelExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.RibbonPanelExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.RoomExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.RoomExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.SolidExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.SolidExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.UIApplicationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.UIApplicationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.UiDocumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.UiDocumentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.VectorRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.VectorRelation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.ViewExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.ViewExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.WallExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.WallExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.XyzExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.XyzExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.HideWarningsPreprocessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.HideWarningsPreprocessor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Interfaces.IButtonSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Interfaces.IButtonSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.Interfaces.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.Interfaces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.PushButtonDataCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.PushButtonDataCreator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.RevitActionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.RevitActionHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.RevitEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.RevitEventHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.WindowsCore.BaseShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.WindowsCore.BaseShell.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.WindowsCore.BaseWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.WindowsCore.BaseWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.WindowsCore.IClosable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.WindowsCore.IClosable.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.WindowsCore.WindowCloser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.WindowsCore.WindowCloser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.WindowsCore.WindowState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.WindowsCore.WindowState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.WindowsCore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.WindowsCore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.DocumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.DocumentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.UIApplicationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.UIApplicationExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.UiDocumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.UiDocumentExtensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Extensions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
